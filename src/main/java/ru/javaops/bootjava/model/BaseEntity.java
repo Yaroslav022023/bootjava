@@ -1,11 +1,12 @@
 package ru.javaops.bootjava.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.data.domain.Persistable;
 import org.springframework.data.util.ProxyUtils;
 import org.springframework.util.Assert;
+
+import javax.persistence.*;
 
 @MappedSuperclass
 //  https://stackoverflow.com/a/6084701/548473
