@@ -3,6 +3,7 @@ package ru.javaops.bootjava.util;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectReader;
+import lombok.Getter;
 import lombok.experimental.UtilityClass;
 
 import java.io.IOException;
@@ -10,6 +11,7 @@ import java.util.List;
 
 @UtilityClass
 public class JsonUtil {
+    @Getter
     private static ObjectMapper objectMapper;
 
     public static void setObjectMapper(ObjectMapper objectMapper) {
