@@ -24,11 +24,10 @@ import org.springframework.context.annotation.Configuration;
                 description = """
                         Application for the <a href='https://javaops.ru/view/bootjava'>course BootJava</a>
                         <p><b>Test credentials:</b><br>
-                        - user@yandex.ru / password<br>
+                        - user@gmail.com / password<br>
                         - admin@gmail.com / admin<br>
                         - guest@gmail.com / guest</p>
-                        """,
-                contact = @Contact(url = "https://javaops.ru/#contacts", name = "Grigory Kislin", email = "admin@javaops.ru")
+                        """
         ),
         security = @SecurityRequirement(name = "basicAuth")
 )

@@ -1,7 +1,6 @@
 package ru.javaops.bootjava.web;
 
 import lombok.experimental.UtilityClass;
-import org.springframework.core.NestedExceptionUtils;
 import ru.javaops.bootjava.HasId;
 import ru.javaops.bootjava.error.IllegalRequestDataException;
 

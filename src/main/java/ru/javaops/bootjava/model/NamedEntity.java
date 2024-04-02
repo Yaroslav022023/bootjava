@@ -10,7 +10,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import ru.javaops.bootjava.validation.NoHtml;
 
-
 @MappedSuperclass
 @Getter
 @Setter
